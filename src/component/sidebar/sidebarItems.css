@@ -1,0 +1,69 @@
+.profile-image img{
+    display: flex;
+    margin-top: 10px;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin: 0 auto;
+    border: 3px solid goldenrod;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.nav-items ul {
+    margin: 15px 0;
+    
+}
+
+.nav-items ul li{
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 0 auto;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.nav-items ul li svg {
+    margin-right: 10px;
+  
+}
+
+.nav-items .active {
+    border-left: 3px solid goldenrod;
+}
+
+.nav-items ul li .active {
+    text-decoration: none;
+    padding-left: 7px;
+}
+
+.toggle-icons-only {
+    margin-top: 70px;
+}
+
+.toggle-icons-only ul {
+    padding-left: 1.2rem;
+}
+
+.toggle-icons-only ul li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 30px ;
+}
+
+.toggle-icons-only ul li svg {
+    margin-right: 70px;
+    align-items: center;
+}
+
+.toggle-icons-only .active {
+    border-left: 3px solid goldenrod;
+    padding-left: 4px;
+}
+
+.toggle-icons-only ul li .active {
+    padding-left: 8px;
+}
